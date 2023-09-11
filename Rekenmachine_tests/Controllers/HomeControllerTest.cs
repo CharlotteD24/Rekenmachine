@@ -34,7 +34,7 @@ namespace Rekenmachine_tests.Controllers
         {
             // Arrange
             var controller = new HomeController();
-            string naam = "Robocop";
+            string naam = "Robocoptje";
 
             // Act
             var resultaat = controller.NaamOmgekeerd(naam) as ViewResult;
